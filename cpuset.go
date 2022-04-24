@@ -1,7 +1,8 @@
 package cpuset
 
 import (
-	"golang.org/x/sys/unix"
+	handy "github.com/itsabgr/go-handy"
+	unix "golang.org/x/sys/unix"
 	"runtime"
 )
 
