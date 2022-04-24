@@ -32,8 +32,3 @@ func CPUSet(tid int, ns ...int) error {
 	}
 	return unix.SchedSetaffinity(tid, set)
 }
-func Nice(tid int, nice int) error {
-	if tid < 0 {
-		tid = unix.Gettid()
-	}
-}
