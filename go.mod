@@ -1,4 +1,4 @@
-module github.com/itsabgr/cputset
+module github.com/itsabgr/cpuset
 
 go 1.18
 
